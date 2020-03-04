@@ -1,0 +1,2 @@
+# OperadorTernarioJavaScript
+OperadorTernarioJavaScript
