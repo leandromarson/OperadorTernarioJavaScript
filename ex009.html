@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores em Java Script</title>
+    <style>
+        body{
+            background-color: rgb(65, 90, 110);
+            color: white;
+            font: normal 20pt Arial;
+        }
+        h1{
+            color: rgb(104, 32, 32);/*Comentario CSS*/
+        }
+        h2{
+            color: rgb(143, 132, 35);/*Comentario CSS*/
+        }
+        strong{
+            font-weight: bolder;
+        }
+        table,tr,th,td{
+            padding: 10px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    
+
+
+    <script>
+        document.writeln("<h2>Operador Ternário</h2>")
+        n1 = Number(prompt("Digite a N1:"))
+        n2 = Number(prompt("Digite a N2:"))
+        media = (n1+n2)/2
+        
+        document.writeln(`<h2>N1: ${n1}<br>N2: ${n2}<br>Media: ${media}<br>Situação: ${(media>=6)?"Aprovado":"Reprovado"}<br></h2>`)
+
+
+        
+    
+    </script>
+</body>
+</html>
